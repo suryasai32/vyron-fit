@@ -24,9 +24,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // This tells Next.js that the site lives inside the /vyron-fit/ sub-folder
   basePath: '/vyron-fit',
-  assetPrefix: '/vyron-fit/',
 };
 
 export default nextConfig;
