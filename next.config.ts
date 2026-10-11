@@ -20,13 +20,13 @@
 // export default nextConfig;
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Tells Next.js to build a static HTML/CSS/JS site instead of a Node server
   output: 'export',
-  
-  // Disables Next.js server-side image optimization, which is required for static hosting
   images: {
     unoptimized: true,
   },
+  // This tells Next.js that the site lives inside the /vyron-fit/ sub-folder
+  basePath: '/vyron-fit',
+  assetPrefix: '/vyron-fit/',
 };
 
 export default nextConfig;

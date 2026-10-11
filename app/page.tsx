@@ -39,7 +39,7 @@ export default function VyronFitApp() {
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer">
             <img 
-              src="/logo.png" 
+              src="/vyron-fit/logo.png"
               alt="Vyron Fit Logo" 
               className="w-12 h-12 object-contain"
               onError={(e) => {
@@ -138,7 +138,7 @@ export default function VyronFitApp() {
           <div className="relative aspect-[4/5] rounded-sm overflow-hidden border border-neutral-800">
             {/* Direct reference to the file with spaces */}
             <img 
-              src="/Murthy Photo.jpeg" 
+              src="/vyron-fit/Murthy Photo.jpeg" 
               alt="Coach Murthy Gowda" 
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
             />
